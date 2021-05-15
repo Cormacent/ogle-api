@@ -1,0 +1,7 @@
+/src/node_modules
+/src/app/migrations
+/src/app/seeders
+/src/package-lock.json
+/src/.env
+
+.idea

@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  ogle-product:
+    build:
+      context: .
+    container_name: "ogle-product"
+    ports:
+    - "8081:8081"
+    volumes:
+      - ./src:/src
+    networks:
+      - ogle
+networks:
+  ogle:
+    external: true
